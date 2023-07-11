@@ -1,7 +1,7 @@
 import Body from './container/Body.js'
 
     /**
-     * 23.07.09 React p221
+     * 23.07.11 React p231
      */
 function ChildComp() {
     return <div>

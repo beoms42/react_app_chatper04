@@ -1,12 +1,17 @@
+import {useState} from "react";
+
 function Body() {
 
-    function handleOnClick(){
-        alert('버튼클릭');
+    const [text, setText]= useState("");
+
+    const handleOnChange = function (e) {
+        setText(e.target.value);
     }
 
       return (
     <div className="body">
-        <button onClick={handleOnClick}>클릭하면.. 알지?</button>
+        <input value={text} onChange={handleOnChange}/>
+        <div>{text}</div>
     </div>
   );
 }
