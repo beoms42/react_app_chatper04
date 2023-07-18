@@ -1,7 +1,7 @@
 import Body from './container/Body.js'
 
     /**
-     * 23.07.17 React p259
+     * 23.07.18 React p266
      */
 
 function App() {
